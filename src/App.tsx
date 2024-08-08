@@ -1,5 +1,5 @@
 function App() {
-  return <div>Asdf</div>;
+  return <div>Mock</div>;
 }
 
 export default App;
