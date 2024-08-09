@@ -44,11 +44,11 @@ export const Navbar = () => {
   return (
     <AppBar className="bg-transparent shadow-none">
       <Paper
-        className="flex flex-row items-center py-3 shadow-none"
+        className="flex flex-row items-center justify-between py-3 shadow-none"
         elevation={4}
         sx={{ px: 9 }}
       >
-        <Box className="flex w-9/12 flex-row gap-3">
+        <Box className="flex w-full flex-row gap-3">
           <img src={logo} alt="logo" />
           <Box className="w-full max-w-[570px]">
             <TextField
@@ -60,7 +60,7 @@ export const Navbar = () => {
             />
           </Box>
         </Box>
-        <Box className="flex w-3/12 flex-row justify-end gap-3 px-1">
+        <Box className="flex flex-row gap-3">
           <Button
             id="basic-button"
             className="normal-case"
@@ -103,7 +103,7 @@ export const Navbar = () => {
           <Button variant="text" className="normal-case">
             Log in
           </Button>
-          <Button variant="contained" className="normal-case">
+          <Button variant="contained" className="text-nowrap normal-case">
             Sign up
           </Button>
         </Box>
