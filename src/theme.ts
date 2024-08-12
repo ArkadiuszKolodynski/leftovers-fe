@@ -1,4 +1,6 @@
-export const theme = {
+import { createTheme } from "@mui/material";
+
+export const theme = createTheme({
   palette: {
     mode: "light",
     primary: {
@@ -19,4 +21,4 @@ export const theme = {
   typography: {
     fontFamily: "Poppins",
   },
-};
+});
